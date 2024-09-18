@@ -8,14 +8,19 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-      <form id="search-form" class="search-form"></form>
-      <input type="text" id="search-query" placeholder="Search images..." required>
-      <button type="submit">Search</button>
-    </form>
-    <span class="loader"></span>
-
-    <div id="gallery" class="gallery"></div>
-  </div>
+    <div class="container">
+      <form id="search-form" class="search-form">
+        <input
+          type="text"
+          id="search-query"
+          placeholder="Search images..."
+          required
+        />
+        <button type="submit">Search</button>
+      </form>
+      <span class="loader"></span>
+      <div id="gallery" class="gallery"></div>
+    </div>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
